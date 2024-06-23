@@ -1,5 +1,5 @@
 package com.acme.lojaAcme.Modelo;
 
-public enum Cargos {
+public enum Cargo {
     ESTAGIARIO, JUNIOR, PLENO, SENIOR;
 }

@@ -1,6 +1,6 @@
 package com.acme.lojaAcme.Modelo;
 
-public enum Setores {
+public enum Setor {
     DESENVOLVIMENTO, DEVOPS, BANCO_DE_DADOS;
 
 }

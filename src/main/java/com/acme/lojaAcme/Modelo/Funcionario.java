@@ -10,17 +10,17 @@ import java.util.List;
 @Setter
 public class Funcionario {
     private String nome;
-    private List<String> telefone;
+    private List<String> telefones;
     private String endereco;
-    private Double salario;
-    private Setores setor;
-    private Cargos cargo;
+    private BigDecimal salario;
+    private Setor setor;
+    private Cargo cargo;
 
 
-    public Funcionario (String nome, List<String> telefone , String endereco, Double salario, Setores setor, Cargos cargo)
+    public Funcionario (String nome, List<String> telefones , String endereco, BigDecimal salario, Setor setor, Cargo cargo)
     {
         this.nome = nome;
-        this.telefone = telefone;
+        this.telefones = telefones;
         this.endereco = endereco;
         this.salario = salario;
         this.setor = setor;
