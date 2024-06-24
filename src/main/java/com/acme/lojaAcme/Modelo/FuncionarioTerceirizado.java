@@ -19,5 +19,4 @@ public class FuncionarioTerceirizado extends Funcionario {
         this.empresaContratada = empresaContratada;
         this.permanenciaEmDIas = permanenciaEmDIas;
     }
-
 }

@@ -16,7 +16,6 @@ public class Funcionario {
     private Setor setor;
     private Cargo cargo;
 
-
     public Funcionario (String nome, List<String> telefones , String endereco, BigDecimal salario, Setor setor, Cargo cargo)
     {
         this.nome = nome;
@@ -26,5 +25,4 @@ public class Funcionario {
         this.setor = setor;
         this.cargo = cargo;
     }
-
 }
